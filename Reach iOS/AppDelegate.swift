@@ -30,12 +30,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         visit(URL: URL(string: "http://192.168.0.2:3000")!)
         manager = APScheduledLocationManager(delegate: self)
         trackLocation()
-        NSLog("string")
     }
     
     func trackLocation() {
         manager.requestAlwaysAuthorization()
-        manager.startUpdatingLocation(interval: 10, acceptableLocationAccuracy: 50)
+        manager.startUpdatingLocation(interval: 10, acceptableLocationAccuracy: 70)
+    }
+    
+    func saveLocation(location: CLLocation) {
+        var request = URLRequest(url: URL(string: "http://192.168.0.2:3000/locations/41030da5-3893-4f89-bd1d-4592bf5fb1f6")!)
+        request.httpMethod = "POST"
+        let postString = "location[lat]=" + String(format: "%.8f", location.coordinate.latitude) + "&location[lng]=" + String(format: "%.8f", location.coordinate.longitude) + "&_method=patch"
+        
+        request.httpBody = postString.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString)")
+        }
+        task.resume()
+
     }
     
     func scheduledLocationManager(_ manager: APScheduledLocationManager, didFailWithError error: Error){
@@ -46,6 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         let latestLocation: CLLocation = locations[locations.count - 1]
         
         NSLog(String(format: "%.4f", latestLocation.coordinate.latitude))
+        saveLocation(location: latestLocation)
     }
     
     @nonobjc func scheduledLocationManager(_ manager: APScheduledLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
