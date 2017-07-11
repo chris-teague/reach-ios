@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301EE5501EE0E48B00E5A9D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301EE54F1EE0E48B00E5A9D3 /* MapKit.framework */; };
 		30230AB31ED86738003BECA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230AB21ED86738003BECA1 /* AppDelegate.swift */; };
 		30230AB51ED86738003BECA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230AB41ED86738003BECA1 /* ViewController.swift */; };
 		30230AB81ED86738003BECA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230AB61ED86738003BECA1 /* Main.storyboard */; };
 		30230ABA1ED86738003BECA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30230AB91ED86738003BECA1 /* Assets.xcassets */; };
 		30230ABD1ED86738003BECA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230ABB1ED86738003BECA1 /* LaunchScreen.storyboard */; };
+		D432C635D4574147A7F7774F /* Pods_Reach_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C485D0743E01F27AF80B44 /* Pods_Reach_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B122D6C1822B95B447447F9 /* Pods-Reach iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reach iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reach iOS/Pods-Reach iOS.release.xcconfig"; sourceTree = "<group>"; };
+		301EE54F1EE0E48B00E5A9D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		30230AAF1ED86738003BECA1 /* Reach iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reach iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30230AB21ED86738003BECA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30230AB41ED86738003BECA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		30230AB91ED86738003BECA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30230ABC1ED86738003BECA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30230ABE1ED86738003BECA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E845606F2602C85D0822C9D /* Pods-Reach iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reach iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reach iOS/Pods-Reach iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C485D0743E01F27AF80B44 /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reach_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301EE5501EE0E48B00E5A9D3 /* MapKit.framework in Frameworks */,
+				D432C635D4574147A7F7774F /* Pods_Reach_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,8 @@
 			children = (
 				30230AB11ED86738003BECA1 /* Reach iOS */,
 				30230AB01ED86738003BECA1 /* Products */,
+				D31671B1767DC5F2FA706E0B /* Pods */,
+				DBB13CA7420DE00340CC4EAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +74,24 @@
 			path = "Reach iOS";
 			sourceTree = "<group>";
 		};
+		D31671B1767DC5F2FA706E0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E845606F2602C85D0822C9D /* Pods-Reach iOS.debug.xcconfig */,
+				1B122D6C1822B95B447447F9 /* Pods-Reach iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBB13CA7420DE00340CC4EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301EE54F1EE0E48B00E5A9D3 /* MapKit.framework */,
+				C9C485D0743E01F27AF80B44 /* Pods_Reach_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30230AC11ED86738003BECA1 /* Build configuration list for PBXNativeTarget "Reach iOS" */;
 			buildPhases = (
+				8CF2C8653E8CAB32B4BE65A4 /* [CP] Check Pods Manifest.lock */,
 				30230AAB1ED86737003BECA1 /* Sources */,
 				30230AAC1ED86737003BECA1 /* Frameworks */,
 				30230AAD1ED86737003BECA1 /* Resources */,
+				EB85D4C8E43001F5888D9A79 /* [CP] Embed Pods Frameworks */,
+				DBA7B85E0E6569D9EB301F77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +127,13 @@
 				TargetAttributes = {
 					30230AAE1ED86737003BECA1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N62PMH2B2X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,6 +167,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CF2C8653E8CAB32B4BE65A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA7B85E0E6569D9EB301F77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reach iOS/Pods-Reach iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB85D4C8E43001F5888D9A79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reach iOS/Pods-Reach iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30230AAB1ED86737003BECA1 /* Sources */ = {
@@ -256,10 +341,13 @@
 		};
 		30230AC21ED86738003BECA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E845606F2602C85D0822C9D /* Pods-Reach iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N62PMH2B2X;
 				INFOPLIST_FILE = "Reach iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = "reinteractive.net.Reach-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -268,9 +356,12 @@
 		};
 		30230AC31ED86738003BECA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B122D6C1822B95B447447F9 /* Pods-Reach iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N62PMH2B2X;
 				INFOPLIST_FILE = "Reach iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "reinteractive.net.Reach-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +388,7 @@
 				30230AC31ED86738003BECA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
