@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>APScheduledLocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Reach iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>48A5768A60CBFFFD1B87B7157AAF6543</key>
+		<key>2629F2A9C43F48870DE3DEC54F6527B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1789E3A67D822B8CE3FB7937CB403EF</key>
+		<key>375056509A6FF37036D4979A575A8342</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6520F8667B210E9A266AE91086E3A5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

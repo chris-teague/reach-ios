@@ -7,5 +7,5 @@ target 'Reach iOS' do
 
   # Pods for Reach iOS
   pod 'Turbolinks', :git => 'https://github.com/turbolinks/turbolinks-ios.git'
-
+  pod 'APScheduledLocationManager'
 end

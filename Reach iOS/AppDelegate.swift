@@ -8,9 +8,14 @@
 
 import UIKit
 import Turbolinks
+import APScheduledLocationManager
+import CoreLocation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate, APScheduledLocationManagerDelegate {
+    
+    private var manager: APScheduledLocationManager!
+
     var window: UIWindow?
     var navigationController = UINavigationController()
     var session = Session()
@@ -23,12 +28,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func startApplication() {
         session.delegate = self
         visit(URL: URL(string: "http://192.168.0.2:3000")!)
+        manager = APScheduledLocationManager(delegate: self)
+        trackLocation()
+        NSLog("string")
+    }
+    
+    func trackLocation() {
+        manager.requestAlwaysAuthorization()
+        manager.startUpdatingLocation(interval: 10, acceptableLocationAccuracy: 50)
+    }
+    
+    func scheduledLocationManager(_ manager: APScheduledLocationManager, didFailWithError error: Error){
+        
+    }
+    
+    func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let latestLocation: CLLocation = locations[locations.count - 1]
+        
+        NSLog(String(format: "%.4f", latestLocation.coordinate.latitude))
+    }
+    
+    @nonobjc func scheduledLocationManager(_ manager: APScheduledLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
     }
     
     func visit(URL: URL) {
         let visitableViewController = VisitableViewController(url: URL)
         navigationController.pushViewController(visitableViewController, animated: true)
         session.visit(visitableViewController)
+    }
+    
+    func locationManager(_ manager: CLLocationManager,
+                         didUpdateLocations locations: [CLLocation])
+    {
+        let latestLocation: CLLocation = locations[locations.count - 1]
+        
+        NSLog(String(format: "%.4f", latestLocation.coordinate.latitude))
+        
     }
     
 }

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '375056509A6FF37036D4979A575A8342'
-               BlueprintName = 'Turbolinks'
+               BlueprintIdentifier = '2629F2A9C43F48870DE3DEC54F6527B2'
+               BlueprintName = 'APScheduledLocationManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Turbolinks.framework'>
+               BuildableName = 'APScheduledLocationManager.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

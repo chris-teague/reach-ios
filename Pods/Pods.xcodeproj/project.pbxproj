@@ -7,107 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C83FB3E37563C6F91BD7434AC5ED05 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3230582930099BCF195FBF9D37D19305 /* WebView.swift */; };
-		14E3DBB9F5E9C5DC9F8122B95BDBE9B8 /* Pods-Reach iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */; };
-		16FAB2CEB13ABC88996D7D4BA5ADFA55 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */; };
-		1E994F94ADC321526E33FA90390A648A /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = F73696591DF4A0121FE93882475CAC1F /* WebView.js */; };
-		231E09C97FE8F7D443B8578E32E25CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		27A1FA9ECF6E75055AB852E76DC2055A /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */; };
-		27B0AE8DD9A2C364CE225B20ABD5E424 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */; };
-		405CD8DADBBAA57CD029A8D1B1333934 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */; };
-		529CBE2DC3B47CA9E1ED8DD0DFE7B2F1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777FB83280F5CB117DF5A45C46047A18 /* Error.swift */; };
-		541C459F5DC2C9C661DB0F96A8250EA8 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */; };
-		5AA0D4CD44D727C9B63DD05CC289E98A /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E40AACA46EDDF892A4BDBE4F205FC4C /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080EE62127E017DF4DBE560921938D9 /* Visit.swift */; };
-		7822E06C325DE82A86F97DCECA108F30 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */; };
-		7A6D9EBA9A25F4DEF4DDC853822F6983 /* Pods-Reach iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6F794139F7096DA61B86398B4139C40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
-		B01D6AF24F4082F770CD46095D6E636A /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */; };
-		F6B9320930DAE16D9530D778268F180A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		01CBDDCE1F958DECF2D90D6DCE93A9D5 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */; };
+		01FBBFD8DE8E339164D4D2FB2C1E0EC4 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */; };
+		03126A202621B6BB8731B273636C4857 /* APScheduledLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0450E8945728C884F4C00B4C9FED544D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		086B767A26FC84CE67226D426C4E70AA /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */; };
+		21F523B680DEB8A7A153542909A5E0E5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
+		377E2195147EB341A68B13C4AB39A446 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */; };
+		434F71F154310751D509C619D02F18A3 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */; };
+		6A76C04449432B00ADF133D47CDDDED5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */; };
+		7080C1300F8240F197F5AA16BB5934A7 /* APScheduledLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */; };
+		8F5A3416922274CE0594ED900ADD2F8C /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */; };
+		9003BE0019637C4750F3C7A9C1D1D3FF /* Pods-Reach iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */; };
+		9C8090E35802374D420DDFDED5D8EED3 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF0A179CFE3B1CB96A98F459A6D5F6B /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */; };
+		B1BCF4278EBE7423B1EAC50F1CC8CBC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		B5CDB3EE1B95C100D241B94AB7A4F726 /* Pods-Reach iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D794390740AE345AF5C14B71BAFCE60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		DF278BC5D5F15B2336033A1CB6174426 /* APScheduledLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */; };
+		E29DCB22E4518C819CEA6473F3C0DE81 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D886A2F8E19556958D7295B0747AB67 /* Error.swift */; };
+		ECD361BD1F390B7349F592E747519024 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */; };
+		FC6D8777A5B9654A39F4B2019B2A0642 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403A96A162BF08466AF4674C9531070 /* Visit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDACD3B6088FD4A670FB3CC2B7B0EEE3 /* PBXContainerItemProxy */ = {
+		063A127079E0C3A47E64F46A651E1BEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1789E3A67D822B8CE3FB7937CB403EF;
+			remoteGlobalIDString = 2629F2A9C43F48870DE3DEC54F6527B2;
+			remoteInfo = APScheduledLocationManager;
+		};
+		822E188D62E7930B1DE47AAC14715C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375056509A6FF37036D4979A575A8342;
 			remoteInfo = Turbolinks;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0739444C7DAE2748032D873296C4BAA6 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
 		0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reach iOS-umbrella.h"; sourceTree = "<group>"; };
 		083C9D552BE3F3CF80651BEB0105000D /* Pods-Reach iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reach iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		1BF7C8E05CE1AC42B94AE69B9825949A /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reach_iOS.framework; path = "Pods-Reach iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
-		2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
-		3230582930099BCF195FBF9D37D19305 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
-		5080EE62127E017DF4DBE560921938D9 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		1403A96A162BF08466AF4674C9531070 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		1E7F4355D598831AEDFB76BD45FA4283 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		2161E15EAF8809F8A155544B3D8DA275 /* APScheduledLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APScheduledLocationManager.modulemap; sourceTree = "<group>"; };
+		23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APScheduledLocationManager.xcconfig; sourceTree = "<group>"; };
+		2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
+		2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
+		3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APScheduledLocationManager.framework; path = APScheduledLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
+		3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APScheduledLocationManager-dummy.m"; sourceTree = "<group>"; };
+		461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-umbrella.h"; sourceTree = "<group>"; };
+		4EB23E25C329C26E828C42D8385CB7D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reach_iOS.framework; path = "Pods-Reach iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reach iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6C193B4F26815F1E41D42DC0A765CD96 /* Pods-Reach iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reach iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
 		7468DE0CD7291E1AABD07E21A0A26C0A /* Pods-Reach iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reach iOS-resources.sh"; sourceTree = "<group>"; };
-		777FB83280F5CB117DF5A45C46047A18 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
-		779B9C70689E269BB70B4D2D45A16A42 /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reach iOS-dummy.m"; sourceTree = "<group>"; };
+		7D886A2F8E19556958D7295B0747AB67 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
+		7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
 		8233766EB1E6E400B4D164BF2C60B9C8 /* Pods-Reach iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Reach iOS.modulemap"; sourceTree = "<group>"; };
-		831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
-		B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
-		C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		9819D3CDC8FE7B7A4ECE1E9995970047 /* APScheduledLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		9D1793992DBEB2ACA3EAD43DDF59B628 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
 		C91B96DB9EBD35CA51E06C3BFBA829EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC97A53D8320AB52DC43C1027A10CE55 /* Pods-Reach iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reach iOS-frameworks.sh"; sourceTree = "<group>"; };
-		D2A721BC1E10FDB1A477F048A5727A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
-		EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
-		EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
+		D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		DC93C4E1EB927A934EB77BED9470F05D /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APScheduledLocationManager.swift; path = APScheduledLocationManager/APScheduledLocationManager.swift; sourceTree = "<group>"; };
 		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		F73696591DF4A0121FE93882475CAC1F /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
 		FFDFCDCDC133658B319F74E9BDABC7CC /* Pods-Reach iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reach iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0179258F62A98934DB709E2C5513F8DC /* Frameworks */ = {
+		B4224D9E53FB43E86E5F4046E005692A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231E09C97FE8F7D443B8578E32E25CB3 /* Foundation.framework in Frameworks */,
+				B1BCF4278EBE7423B1EAC50F1CC8CBC3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8395C7D0C2FF9CA49D5B77404D9E90E /* Frameworks */ = {
+		D14B0EEB238E67782319A256B7DEDBA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B9320930DAE16D9530D778268F180A /* Foundation.framework in Frameworks */,
-				A6F794139F7096DA61B86398B4139C40 /* WebKit.framework in Frameworks */,
+				0450E8945728C884F4C00B4C9FED544D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C9B261758716EBE1ECA0196D4DCD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794390740AE345AF5C14B71BAFCE60A /* Foundation.framework in Frameworks */,
+				21F523B680DEB8A7A153542909A5E0E5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */ = {
+		296677C786A9763B6E19ADDDAF8382D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */,
-				777FB83280F5CB117DF5A45C46047A18 /* Error.swift */,
-				831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */,
-				B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */,
-				5080EE62127E017DF4DBE560921938D9 /* Visit.swift */,
-				EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */,
-				C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */,
-				A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */,
-				3230582930099BCF195FBF9D37D19305 /* WebView.swift */,
-				68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */,
-				C5975DF54413356263EA4BF97B0D2CBE /* Support Files */,
+				4EB23E25C329C26E828C42D8385CB7D6 /* Info.plist */,
+				1E7F4355D598831AEDFB76BD45FA4283 /* Turbolinks.modulemap */,
+				36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */,
+				989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */,
+				DC93C4E1EB927A934EB77BED9470F05D /* Turbolinks-prefix.pch */,
+				05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */,
 			);
-			name = Turbolinks;
-			path = Turbolinks;
+			name = "Support Files";
+			path = "../Target Support Files/Turbolinks";
 			sourceTree = "<group>";
 		};
 		29BB0009440AB06C6A6B7EDC7B0D1B65 /* Pods-Reach iOS */ = {
@@ -128,29 +150,12 @@
 			path = "Target Support Files/Pods-Reach iOS";
 			sourceTree = "<group>";
 		};
-		41FAC9F7615FD5E184A01A303DF4CA53 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1BF7C8E05CE1AC42B94AE69B9825949A /* Pods_Reach_iOS.framework */,
-				779B9C70689E269BB70B4D2D45A16A42 /* Turbolinks.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F73696591DF4A0121FE93882475CAC1F /* WebView.js */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
@@ -162,23 +167,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72E6AE1933166C0F56465FFCAF928DC2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				72E6AE1933166C0F56465FFCAF928DC2 /* Pods */,
-				41FAC9F7615FD5E184A01A303DF4CA53 /* Products */,
+				E6C540F9D3111CBB27552EC778BD3657 /* Pods */,
+				A332EDD0B6917A44B9D2761D7F4345BC /* Products */,
 				A32B923CD2EA3CF5E2243991C465DC56 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8516E095A70C62D71685C8BA308E8D5B /* APScheduledLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */,
+				B1B1A7F73FA37EF90FCBC6372BFA5E2E /* Support Files */,
+			);
+			name = APScheduledLocationManager;
+			path = APScheduledLocationManager;
+			sourceTree = "<group>";
+		};
+		85C22585580A5CB687F0D6ADE45C061F /* Turbolinks */ = {
+			isa = PBXGroup;
+			children = (
+				F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */,
+				7D886A2F8E19556958D7295B0747AB67 /* Error.swift */,
+				D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */,
+				7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */,
+				1403A96A162BF08466AF4674C9531070 /* Visit.swift */,
+				2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */,
+				9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */,
+				2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */,
+				BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */,
+				BEA82BBC6BB10124542D7CB243880977 /* Resources */,
+				296677C786A9763B6E19ADDDAF8382D8 /* Support Files */,
+			);
+			name = Turbolinks;
+			path = Turbolinks;
 			sourceTree = "<group>";
 		};
 		A32B923CD2EA3CF5E2243991C465DC56 /* Targets Support Files */ = {
@@ -189,68 +215,102 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C5975DF54413356263EA4BF97B0D2CBE /* Support Files */ = {
+		A332EDD0B6917A44B9D2761D7F4345BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2A721BC1E10FDB1A477F048A5727A44 /* Info.plist */,
-				E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */,
-				72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */,
-				2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */,
-				0739444C7DAE2748032D873296C4BAA6 /* Turbolinks-prefix.pch */,
-				EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */,
+				3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */,
+				6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */,
+				D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B1A7F73FA37EF90FCBC6372BFA5E2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2161E15EAF8809F8A155544B3D8DA275 /* APScheduledLocationManager.modulemap */,
+				23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */,
+				3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */,
+				9819D3CDC8FE7B7A4ECE1E9995970047 /* APScheduledLocationManager-prefix.pch */,
+				461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */,
+				9D1793992DBEB2ACA3EAD43DDF59B628 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Turbolinks";
+			path = "../Target Support Files/APScheduledLocationManager";
+			sourceTree = "<group>";
+		};
+		BEA82BBC6BB10124542D7CB243880977 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6C540F9D3111CBB27552EC778BD3657 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8516E095A70C62D71685C8BA308E8D5B /* APScheduledLocationManager */,
+				85C22585580A5CB687F0D6ADE45C061F /* Turbolinks */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17929086DB7A616F2B8BA94CA6E1D54D /* Headers */ = {
+		01206310931AB701A347676C90CA89F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6D9EBA9A25F4DEF4DDC853822F6983 /* Pods-Reach iOS-umbrella.h in Headers */,
+				9C8090E35802374D420DDFDED5D8EED3 /* Turbolinks-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D18F54799E059E37BDD1BF2A14B265C7 /* Headers */ = {
+		105953BCEC2270473471422A8825BE8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA0D4CD44D727C9B63DD05CC289E98A /* Turbolinks-umbrella.h in Headers */,
+				B5CDB3EE1B95C100D241B94AB7A4F726 /* Pods-Reach iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91E61D73A5EAB84CACDFAB55497DDF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03126A202621B6BB8731B273636C4857 /* APScheduledLocationManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		48A5768A60CBFFFD1B87B7157AAF6543 /* Pods-Reach iOS */ = {
+		2629F2A9C43F48870DE3DEC54F6527B2 /* APScheduledLocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF28BCEA91FA08C871444297835CA8E7 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */;
+			buildConfigurationList = 26E29A20152D8B88E799FA5D1ED166DD /* Build configuration list for PBXNativeTarget "APScheduledLocationManager" */;
 			buildPhases = (
-				30A03CC15231E9F089C22A85D18A5D02 /* Sources */,
-				0179258F62A98934DB709E2C5513F8DC /* Frameworks */,
-				17929086DB7A616F2B8BA94CA6E1D54D /* Headers */,
+				8CC348E21F5C457A219D3A148676A7FB /* Sources */,
+				D14B0EEB238E67782319A256B7DEDBA1 /* Frameworks */,
+				E91E61D73A5EAB84CACDFAB55497DDF0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A202B28C22680045F2F141C8ABEBA8E8 /* PBXTargetDependency */,
 			);
-			name = "Pods-Reach iOS";
-			productName = "Pods-Reach iOS";
-			productReference = 1BF7C8E05CE1AC42B94AE69B9825949A /* Pods_Reach_iOS.framework */;
+			name = APScheduledLocationManager;
+			productName = APScheduledLocationManager;
+			productReference = 3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A1789E3A67D822B8CE3FB7937CB403EF /* Turbolinks */ = {
+		375056509A6FF37036D4979A575A8342 /* Turbolinks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74A19BF802A28313848FDC8BAA17C021 /* Build configuration list for PBXNativeTarget "Turbolinks" */;
+			buildConfigurationList = 8010F2674EC7E4DF106389101A56D040 /* Build configuration list for PBXNativeTarget "Turbolinks" */;
 			buildPhases = (
-				13895CCBF328235DD0C10A88F9145388 /* Sources */,
-				E8395C7D0C2FF9CA49D5B77404D9E90E /* Frameworks */,
-				D262E52ECE0E8CA10CAAB4EA35113CE3 /* Resources */,
-				D18F54799E059E37BDD1BF2A14B265C7 /* Headers */,
+				746E82ACD0547EE488681FEFE0781ADF /* Sources */,
+				E9C9B261758716EBE1ECA0196D4DCD6B /* Frameworks */,
+				0ACA7C9E93F6F21A8F760A46B61A8D38 /* Resources */,
+				01206310931AB701A347676C90CA89F3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -258,7 +318,26 @@
 			);
 			name = Turbolinks;
 			productName = Turbolinks;
-			productReference = 779B9C70689E269BB70B4D2D45A16A42 /* Turbolinks.framework */;
+			productReference = D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6520F8667B210E9A266AE91086E3A5A /* Pods-Reach iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1386843F6A4E01ABE81D1F0C450F3A95 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */;
+			buildPhases = (
+				3AC6B5A3602F68AAA65D0C4C1B08434D /* Sources */,
+				B4224D9E53FB43E86E5F4046E005692A /* Frameworks */,
+				105953BCEC2270473471422A8825BE8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C627796F553C876DFB733CB23E1ABC /* PBXTargetDependency */,
+				781EF12888BA5AAAE2E83B14DDF8C190 /* PBXTargetDependency */,
+			);
+			name = "Pods-Reach iOS";
+			productName = "Pods-Reach iOS";
+			productReference = 6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -278,61 +357,77 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 41FAC9F7615FD5E184A01A303DF4CA53 /* Products */;
+			productRefGroup = A332EDD0B6917A44B9D2761D7F4345BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48A5768A60CBFFFD1B87B7157AAF6543 /* Pods-Reach iOS */,
-				A1789E3A67D822B8CE3FB7937CB403EF /* Turbolinks */,
+				2629F2A9C43F48870DE3DEC54F6527B2 /* APScheduledLocationManager */,
+				F6520F8667B210E9A266AE91086E3A5A /* Pods-Reach iOS */,
+				375056509A6FF37036D4979A575A8342 /* Turbolinks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D262E52ECE0E8CA10CAAB4EA35113CE3 /* Resources */ = {
+		0ACA7C9E93F6F21A8F760A46B61A8D38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E994F94ADC321526E33FA90390A648A /* WebView.js in Resources */,
+				AAF0A179CFE3B1CB96A98F459A6D5F6B /* WebView.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13895CCBF328235DD0C10A88F9145388 /* Sources */ = {
+		3AC6B5A3602F68AAA65D0C4C1B08434D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01D6AF24F4082F770CD46095D6E636A /* Action.swift in Sources */,
-				529CBE2DC3B47CA9E1ED8DD0DFE7B2F1 /* Error.swift in Sources */,
-				27B0AE8DD9A2C364CE225B20ABD5E424 /* ScriptMessage.swift in Sources */,
-				7822E06C325DE82A86F97DCECA108F30 /* Session.swift in Sources */,
-				27A1FA9ECF6E75055AB852E76DC2055A /* Turbolinks-dummy.m in Sources */,
-				6E40AACA46EDDF892A4BDBE4F205FC4C /* Visit.swift in Sources */,
-				541C459F5DC2C9C661DB0F96A8250EA8 /* Visitable.swift in Sources */,
-				16FAB2CEB13ABC88996D7D4BA5ADFA55 /* VisitableView.swift in Sources */,
-				405CD8DADBBAA57CD029A8D1B1333934 /* VisitableViewController.swift in Sources */,
-				01C83FB3E37563C6F91BD7434AC5ED05 /* WebView.swift in Sources */,
+				9003BE0019637C4750F3C7A9C1D1D3FF /* Pods-Reach iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30A03CC15231E9F089C22A85D18A5D02 /* Sources */ = {
+		746E82ACD0547EE488681FEFE0781ADF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E3DBB9F5E9C5DC9F8122B95BDBE9B8 /* Pods-Reach iOS-dummy.m in Sources */,
+				434F71F154310751D509C619D02F18A3 /* Action.swift in Sources */,
+				E29DCB22E4518C819CEA6473F3C0DE81 /* Error.swift in Sources */,
+				01CBDDCE1F958DECF2D90D6DCE93A9D5 /* ScriptMessage.swift in Sources */,
+				6A76C04449432B00ADF133D47CDDDED5 /* Session.swift in Sources */,
+				8F5A3416922274CE0594ED900ADD2F8C /* Turbolinks-dummy.m in Sources */,
+				FC6D8777A5B9654A39F4B2019B2A0642 /* Visit.swift in Sources */,
+				086B767A26FC84CE67226D426C4E70AA /* Visitable.swift in Sources */,
+				01FBBFD8DE8E339164D4D2FB2C1E0EC4 /* VisitableView.swift in Sources */,
+				377E2195147EB341A68B13C4AB39A446 /* VisitableViewController.swift in Sources */,
+				ECD361BD1F390B7349F592E747519024 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC348E21F5C457A219D3A148676A7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF278BC5D5F15B2336033A1CB6174426 /* APScheduledLocationManager-dummy.m in Sources */,
+				7080C1300F8240F197F5AA16BB5934A7 /* APScheduledLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A202B28C22680045F2F141C8ABEBA8E8 /* PBXTargetDependency */ = {
+		47C627796F553C876DFB733CB23E1ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APScheduledLocationManager;
+			target = 2629F2A9C43F48870DE3DEC54F6527B2 /* APScheduledLocationManager */;
+			targetProxy = 063A127079E0C3A47E64F46A651E1BEB /* PBXContainerItemProxy */;
+		};
+		781EF12888BA5AAAE2E83B14DDF8C190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Turbolinks;
-			target = A1789E3A67D822B8CE3FB7937CB403EF /* Turbolinks */;
-			targetProxy = DDACD3B6088FD4A670FB3CC2B7B0EEE3 /* PBXContainerItemProxy */;
+			target = 375056509A6FF37036D4979A575A8342 /* Turbolinks */;
+			targetProxy = 822E188D62E7930B1DE47AAC14715C94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,9 +480,9 @@
 			};
 			name = Debug;
 		};
-		2B744C341A5F555BB2376B1DDCE725A7 /* Debug */ = {
+		4C321D8607F86D2A4D45205B5097A66A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */;
+			baseConfigurationReference = 36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -420,9 +515,9 @@
 			};
 			name = Debug;
 		};
-		A7E4089ACB16BAE63F2CF6FE40BF70F9 /* Release */ = {
+		9610C2D62560A3C8E0CC2D01B1D6CD73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */;
+			baseConfigurationReference = 23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,14 +531,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/APScheduledLocationManager/APScheduledLocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APScheduledLocationManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MODULEMAP_FILE = "Target Support Files/APScheduledLocationManager/APScheduledLocationManager.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Turbolinks;
+				PRODUCT_NAME = APScheduledLocationManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -453,6 +548,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9BE2E36A7D57C9FD9675768EFB3E904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reach iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reach iOS/Pods-Reach iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reach_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -498,7 +632,42 @@
 			};
 			name = Release;
 		};
-		BD60DC178F2D6E29457C50AF4FA1C9F2 /* Release */ = {
+		AD8B43DD7008E8886F7D304DBB2EA3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APScheduledLocationManager/APScheduledLocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APScheduledLocationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APScheduledLocationManager/APScheduledLocationManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APScheduledLocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BACC72BFD194F9BBD30DA1066F047CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFDFCDCDC133658B319F74E9BDABC7CC /* Pods-Reach iOS.release.xcconfig */;
 			buildSettings = {
@@ -536,48 +705,61 @@
 			};
 			name = Release;
 		};
-		F199C8700B5831E36731478D0AAF18F1 /* Debug */ = {
+		C567832262AA4EBDEEB90284C335903B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */;
+			baseConfigurationReference = 36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Reach iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Reach iOS/Pods-Reach iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Reach_iOS;
+				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Turbolinks;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1386843F6A4E01ABE81D1F0C450F3A95 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE2E36A7D57C9FD9675768EFB3E904A /* Debug */,
+				BACC72BFD194F9BBD30DA1066F047CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E29A20152D8B88E799FA5D1ED166DD /* Build configuration list for PBXNativeTarget "APScheduledLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8B43DD7008E8886F7D304DBB2EA3B2 /* Debug */,
+				9610C2D62560A3C8E0CC2D01B1D6CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -587,20 +769,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74A19BF802A28313848FDC8BAA17C021 /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
+		8010F2674EC7E4DF106389101A56D040 /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B744C341A5F555BB2376B1DDCE725A7 /* Debug */,
-				A7E4089ACB16BAE63F2CF6FE40BF70F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF28BCEA91FA08C871444297835CA8E7 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F199C8700B5831E36731478D0AAF18F1 /* Debug */,
-				BD60DC178F2D6E29457C50AF4FA1C9F2 /* Release */,
+				4C321D8607F86D2A4D45205B5097A66A /* Debug */,
+				C567832262AA4EBDEEB90284C335903B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
