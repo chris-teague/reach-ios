@@ -29,8 +29,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         session.delegate = self
         visit(URL: URL(string: "http://192.168.0.2:3000")!)
         manager = APScheduledLocationManager(delegate: self)
+        setupUser()
         trackLocation()
     }
+    
+    func setupUser() {
+        let path = NSBundle.mainBundle().pathForResource("Credentials", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        
+        tableData = dict!.objectForKey("user-id") as! [String]
+        print(tableData)
+    }
+    
     
     func trackLocation() {
         manager.requestAlwaysAuthorization()
@@ -38,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     }
     
     func saveLocation(location: CLLocation) {
-        var request = URLRequest(url: URL(string: "http://192.168.0.2:3000/locations/41030da5-3893-4f89-bd1d-4592bf5fb1f6")!)
+        var request = URLRequest(url: URL(string: "http://192.168.0.2:3000/locations/af22687f-4c43-47f2-97ff-db9764b8c91d")!)
         request.httpMethod = "POST"
         let postString = "location[lat]=" + String(format: "%.8f", location.coordinate.latitude) + "&location[lng]=" + String(format: "%.8f", location.coordinate.longitude) + "&_method=patch"
         
@@ -78,6 +88,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     func visit(URL: URL) {
         let visitableViewController = VisitableViewController(url: URL)
         navigationController.pushViewController(visitableViewController, animated: true)
+        
+        let dirUrl = URL.deletingLastPathComponent()
+        print(dirUrl.path)
+        if(dirUrl.path == "/locations") {
+            UIPasteboard.general.string = URL.absoluteString
+        }
+        
         session.visit(visitableViewController)
     }
     

@@ -13,6 +13,7 @@
 		30230AB81ED86738003BECA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230AB61ED86738003BECA1 /* Main.storyboard */; };
 		30230ABA1ED86738003BECA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30230AB91ED86738003BECA1 /* Assets.xcassets */; };
 		30230ABD1ED86738003BECA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230ABB1ED86738003BECA1 /* LaunchScreen.storyboard */; };
+		302F01EC1F1659550016D842 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 302F01EB1F1659550016D842 /* Credentials.plist */; };
 		D432C635D4574147A7F7774F /* Pods_Reach_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C485D0743E01F27AF80B44 /* Pods_Reach_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		30230AB91ED86738003BECA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30230ABC1ED86738003BECA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30230ABE1ED86738003BECA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302F01EB1F1659550016D842 /* Credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
 		6E845606F2602C85D0822C9D /* Pods-Reach iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reach iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reach iOS/Pods-Reach iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C9C485D0743E01F27AF80B44 /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reach_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				30230AB21ED86738003BECA1 /* AppDelegate.swift */,
+				302F01EB1F1659550016D842 /* Credentials.plist */,
 				30230AB41ED86738003BECA1 /* ViewController.swift */,
 				30230AB61ED86738003BECA1 /* Main.storyboard */,
 				30230AB91ED86738003BECA1 /* Assets.xcassets */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30230ABD1ED86738003BECA1 /* LaunchScreen.storyboard in Resources */,
+				302F01EC1F1659550016D842 /* Credentials.plist in Resources */,
 				30230ABA1ED86738003BECA1 /* Assets.xcassets in Resources */,
 				30230AB81ED86738003BECA1 /* Main.storyboard in Resources */,
 			);
