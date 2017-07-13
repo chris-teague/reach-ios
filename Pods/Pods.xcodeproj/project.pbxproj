@@ -7,94 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01CBDDCE1F958DECF2D90D6DCE93A9D5 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */; };
-		01FBBFD8DE8E339164D4D2FB2C1E0EC4 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */; };
-		03126A202621B6BB8731B273636C4857 /* APScheduledLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0450E8945728C884F4C00B4C9FED544D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		086B767A26FC84CE67226D426C4E70AA /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */; };
-		21F523B680DEB8A7A153542909A5E0E5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
-		377E2195147EB341A68B13C4AB39A446 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */; };
-		434F71F154310751D509C619D02F18A3 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */; };
-		6A76C04449432B00ADF133D47CDDDED5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */; };
-		7080C1300F8240F197F5AA16BB5934A7 /* APScheduledLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */; };
-		8F5A3416922274CE0594ED900ADD2F8C /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */; };
-		9003BE0019637C4750F3C7A9C1D1D3FF /* Pods-Reach iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */; };
-		9C8090E35802374D420DDFDED5D8EED3 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF0A179CFE3B1CB96A98F459A6D5F6B /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */; };
-		B1BCF4278EBE7423B1EAC50F1CC8CBC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		B5CDB3EE1B95C100D241B94AB7A4F726 /* Pods-Reach iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D794390740AE345AF5C14B71BAFCE60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
-		DF278BC5D5F15B2336033A1CB6174426 /* APScheduledLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */; };
-		E29DCB22E4518C819CEA6473F3C0DE81 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D886A2F8E19556958D7295B0747AB67 /* Error.swift */; };
-		ECD361BD1F390B7349F592E747519024 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */; };
-		FC6D8777A5B9654A39F4B2019B2A0642 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403A96A162BF08466AF4674C9531070 /* Visit.swift */; };
+		03126A202621B6BB8731B273636C4857 /* APScheduledLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 796815362F4B86BB723FDD51FB3D50F0 /* APScheduledLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0450E8945728C884F4C00B4C9FED544D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */; };
+		22E8653389069EC69E9F0851DABD185A /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CCBBB48D4763AA4B12652D04B7208 /* ScriptMessage.swift */; };
+		36F9DDDC68BB6E669D41A916ACEDC9B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */; };
+		3984F48E2F7104AA559F1669041A0A02 /* Strongbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 397372B1F6A1F15B56CE0B736603FF87 /* Strongbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCF36411C7068738E66C858E69F3C33 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C023499C0D193942971B2697783D /* VisitableView.swift */; };
+		3ECC7E5434C4266E88CD351B83BB32E9 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA547E9F23593FE164EA8F495D31282 /* VisitableViewController.swift */; };
+		46B37E113BBA188C96E6B94203A94A36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7EB74A27D5A962A138FF8119143D83 /* WebKit.framework */; };
+		5235DCE809AA1CF1AFB936180C4C2C42 /* Strongbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6DECA9350B90225A11C479BC29B44D /* Strongbox-dummy.m */; };
+		63F1CA1437A15A5DA8DCCB0B6059DEC0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAABD63A7D1E132286050B12D817644 /* Session.swift */; };
+		6B611D04B60098A6AAE49607206A6CE6 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 351FA5D5F62514A8CFFDC94F6CAE26AE /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7080C1300F8240F197F5AA16BB5934A7 /* APScheduledLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2846A4042D898B4C4DB0680D9D03C5 /* APScheduledLocationManager.swift */; };
+		74161B5FC5A297425132CCA2FBDB3A14 /* Pods-Reach iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD5F88F26313E42FC3831F9C1E6EE77 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE421853C42A57202411B611A466A2C /* Security.framework */; };
+		8A00D02406C1B175CFF10250D8A4E7D6 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DFD7A20B2FC93C8DDA93C4CE2D4A0 /* Visitable.swift */; };
+		9073F1245D1003CCB4E5D370C87E8AA7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6589FF9F88ACB87AFBE410B504A38 /* Error.swift */; };
+		A34937A5F4455DA4394F22A6D66667FC /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 047E7F42078F869A6F4A6B1CA32ECEB6 /* WebView.js */; };
+		C0CB0012FC328620DBA503175B648212 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55565FCE8362822AF6961BCFF52A2B29 /* Action.swift */; };
+		CAC2BA2F055E6E26B8B2BBCECF14EA31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */; };
+		DF278BC5D5F15B2336033A1CB6174426 /* APScheduledLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 088DC4B999F4AF953207F3726A42B724 /* APScheduledLocationManager-dummy.m */; };
+		E5FD21C5A36CAC96EF8DAA4945522D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */; };
+		E9F0350493ADEEFCC6A466C758A405CE /* Strongbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9337788AA5944A98FD3A48FBBEB3F806 /* Strongbox.swift */; };
+		EA1B21061293BB174EEA43CA85E7DFF2 /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBA4CE685025930420A9A811611FDC /* Turbolinks-dummy.m */; };
+		F5066E0C15DAE93E6BCA7C72E42CBB1A /* Pods-Reach iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */; };
+		FC784C0350E285191DF6956DFDAEB458 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C4B46D86B95263A17106C27D62285 /* Visit.swift */; };
+		FF1911AAACD7B8F6C89776EC797E0467 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56756584020428C5F8AB64271EDD065 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		063A127079E0C3A47E64F46A651E1BEB /* PBXContainerItemProxy */ = {
+		5E94328F62432A414F2D29718E3A005B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3F8A62C0B0755DC278F132A11B448A;
+			remoteInfo = Turbolinks;
+		};
+		840F2AC4EA07F58C3EC8DA1AF3B5574E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F6D7CA9AF5ED935347755C02A7ED85;
+			remoteInfo = Strongbox;
+		};
+		AC4226BA4CACB7B9637C45A48FA96752 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2629F2A9C43F48870DE3DEC54F6527B2;
 			remoteInfo = APScheduledLocationManager;
 		};
-		822E188D62E7930B1DE47AAC14715C94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 375056509A6FF37036D4979A575A8342;
-			remoteInfo = Turbolinks;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
+		047E7F42078F869A6F4A6B1CA32ECEB6 /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
 		0777B43DA3FA7C9AFB333345EFC457F9 /* Pods-Reach iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reach iOS-umbrella.h"; sourceTree = "<group>"; };
 		083C9D552BE3F3CF80651BEB0105000D /* Pods-Reach iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reach iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		1403A96A162BF08466AF4674C9531070 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
-		1E7F4355D598831AEDFB76BD45FA4283 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
-		2161E15EAF8809F8A155544B3D8DA275 /* APScheduledLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APScheduledLocationManager.modulemap; sourceTree = "<group>"; };
-		23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APScheduledLocationManager.xcconfig; sourceTree = "<group>"; };
-		2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
-		2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
-		3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APScheduledLocationManager.framework; path = APScheduledLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
-		3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APScheduledLocationManager-dummy.m"; sourceTree = "<group>"; };
-		461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-umbrella.h"; sourceTree = "<group>"; };
-		4EB23E25C329C26E828C42D8385CB7D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reach_iOS.framework; path = "Pods-Reach iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		088DC4B999F4AF953207F3726A42B724 /* APScheduledLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APScheduledLocationManager-dummy.m"; sourceTree = "<group>"; };
+		0FA547E9F23593FE164EA8F495D31282 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
+		137B33F6C5D27B0F70E8FA5EB8DA7B6D /* Strongbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Strongbox.modulemap; sourceTree = "<group>"; };
+		19518DF7840B1C6D99091BBE6407E1DA /* Pods_Reach_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reach_iOS.framework; path = "Pods-Reach iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283394D46398CB27DF09A76C852DA142 /* Strongbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Strongbox.xcconfig; sourceTree = "<group>"; };
+		29018AC6B1CC8B45E22EF3D40021E4E9 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
+		29FBD2893473B8D7B5208ABC5634E2D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351FA5D5F62514A8CFFDC94F6CAE26AE /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
+		397372B1F6A1F15B56CE0B736603FF87 /* Strongbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongbox-umbrella.h"; sourceTree = "<group>"; };
+		52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52E52DD8B02FD49C81575B61A6FF9D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55565FCE8362822AF6961BCFF52A2B29 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
+		5B3C5934E69DCE3CEAE5FAB5BAD9E6C0 /* Strongbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Strongbox-prefix.pch"; sourceTree = "<group>"; };
 		63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reach iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6AA6589FF9F88ACB87AFBE410B504A38 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
+		6B7EB74A27D5A962A138FF8119143D83 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		6C193B4F26815F1E41D42DC0A765CD96 /* Pods-Reach iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reach iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D2846A4042D898B4C4DB0680D9D03C5 /* APScheduledLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APScheduledLocationManager.swift; path = APScheduledLocationManager/APScheduledLocationManager.swift; sourceTree = "<group>"; };
+		703C5B7B78E28DC9024928259174C91D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7468DE0CD7291E1AABD07E21A0A26C0A /* Pods-Reach iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reach iOS-resources.sh"; sourceTree = "<group>"; };
+		778C4B46D86B95263A17106C27D62285 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		77E782A28F9596DE9DBCD57209C2B5F8 /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796815362F4B86BB723FDD51FB3D50F0 /* APScheduledLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-umbrella.h"; sourceTree = "<group>"; };
 		7BD5BB8B2533E924E6C7BAD1FEF1C29A /* Pods-Reach iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reach iOS-dummy.m"; sourceTree = "<group>"; };
-		7D886A2F8E19556958D7295B0747AB67 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
-		7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
 		8233766EB1E6E400B4D164BF2C60B9C8 /* Pods-Reach iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Reach iOS.modulemap"; sourceTree = "<group>"; };
-		9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		84C32323A8B87561E6EA28691EA4957C /* APScheduledLocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APScheduledLocationManager.xcconfig; sourceTree = "<group>"; };
+		8A7DB1A13FA56626250120DEE88D37FD /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		8AAABD63A7D1E132286050B12D817644 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
+		8D6DFD7A20B2FC93C8DDA93C4CE2D4A0 /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
+		9337788AA5944A98FD3A48FBBEB3F806 /* Strongbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strongbox.swift; path = Strongbox/Classes/Strongbox.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9819D3CDC8FE7B7A4ECE1E9995970047 /* APScheduledLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-prefix.pch"; sourceTree = "<group>"; };
-		989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
-		9D1793992DBEB2ACA3EAD43DDF59B628 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
-		BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		A31FFB7E4EC5AE5D530F564E57D25706 /* APScheduledLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APScheduledLocationManager.modulemap; sourceTree = "<group>"; };
+		B48CCBBB48D4763AA4B12652D04B7208 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		B56756584020428C5F8AB64271EDD065 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
 		C91B96DB9EBD35CA51E06C3BFBA829EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC97A53D8320AB52DC43C1027A10CE55 /* Pods-Reach iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reach iOS-frameworks.sh"; sourceTree = "<group>"; };
-		D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
-		DC93C4E1EB927A934EB77BED9470F05D /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
-		E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APScheduledLocationManager.swift; path = APScheduledLocationManager/APScheduledLocationManager.swift; sourceTree = "<group>"; };
-		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
+		D037C023499C0D193942971B2697783D /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		D7428A55EF1F46BFFA50B7535CA2EB28 /* Strongbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Strongbox.framework; path = Strongbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D20202DD49073E29FE61AB4B995D7F /* APScheduledLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APScheduledLocationManager.framework; path = APScheduledLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC46D0D01C40CA092056A4A159F616A1 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		DD6DECA9350B90225A11C479BC29B44D /* Strongbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Strongbox-dummy.m"; sourceTree = "<group>"; };
+		E73C89A965E2795C18BBA0179C0EC0CA /* APScheduledLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APScheduledLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		FACBA4CE685025930420A9A811611FDC /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		FCE421853C42A57202411B611A466A2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		FFDFCDCDC133658B319F74E9BDABC7CC /* Pods-Reach iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reach iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4224D9E53FB43E86E5F4046E005692A /* Frameworks */ = {
+		13371A831265FE3294A04883B18C1B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1BCF4278EBE7423B1EAC50F1CC8CBC3 /* Foundation.framework in Frameworks */,
+				CAC2BA2F055E6E26B8B2BBCECF14EA31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8C2F47E95F12C7BFCDCE4BA9BC6283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F9DDDC68BB6E669D41A916ACEDC9B9 /* Foundation.framework in Frameworks */,
+				7FD5F88F26313E42FC3831F9C1E6EE77 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DEE109D231B9194369F02CA2B115D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FD21C5A36CAC96EF8DAA4945522D27 /* Foundation.framework in Frameworks */,
+				46B37E113BBA188C96E6B94203A94A36 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,30 +145,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9C9B261758716EBE1ECA0196D4DCD6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D794390740AE345AF5C14B71BAFCE60A /* Foundation.framework in Frameworks */,
-				21F523B680DEB8A7A153542909A5E0E5 /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		296677C786A9763B6E19ADDDAF8382D8 /* Support Files */ = {
+		04DABBA05C04E17C9E6CB7FD52F7D63C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4EB23E25C329C26E828C42D8385CB7D6 /* Info.plist */,
-				1E7F4355D598831AEDFB76BD45FA4283 /* Turbolinks.modulemap */,
-				36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */,
-				989A081F9E00FDF06C00FD9105F544F5 /* Turbolinks-dummy.m */,
-				DC93C4E1EB927A934EB77BED9470F05D /* Turbolinks-prefix.pch */,
-				05D18436AF8D653D9DA0842BFE2B215A /* Turbolinks-umbrella.h */,
+				525C1493C1335F14AD7796F976B28673 /* APScheduledLocationManager */,
+				6E4CC89B17F254B310CD6AD0C0430615 /* Strongbox */,
+				4EEB67302D4E551FE02AD5974E914CA1 /* Turbolinks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860C09CB2FC14EB46530E2285BC06523 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		161F921463E6279318597B493D73595F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D20202DD49073E29FE61AB4B995D7F /* APScheduledLocationManager.framework */,
+				19518DF7840B1C6D99091BBE6407E1DA /* Pods_Reach_iOS.framework */,
+				D7428A55EF1F46BFFA50B7535CA2EB28 /* Strongbox.framework */,
+				77E782A28F9596DE9DBCD57209C2B5F8 /* Turbolinks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A22519DF53A7B3A32B2419E7C95CC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				703C5B7B78E28DC9024928259174C91D /* Info.plist */,
+				137B33F6C5D27B0F70E8FA5EB8DA7B6D /* Strongbox.modulemap */,
+				283394D46398CB27DF09A76C852DA142 /* Strongbox.xcconfig */,
+				DD6DECA9350B90225A11C479BC29B44D /* Strongbox-dummy.m */,
+				5B3C5934E69DCE3CEAE5FAB5BAD9E6C0 /* Strongbox-prefix.pch */,
+				397372B1F6A1F15B56CE0B736603FF87 /* Strongbox-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Turbolinks";
+			path = "../Target Support Files/Strongbox";
 			sourceTree = "<group>";
 		};
 		29BB0009440AB06C6A6B7EDC7B0D1B65 /* Pods-Reach iOS */ = {
@@ -150,61 +209,72 @@
 			path = "Target Support Files/Pods-Reach iOS";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		38A1815159FC7A5D8A17116C10516621 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
+				047E7F42078F869A6F4A6B1CA32ECEB6 /* WebView.js */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
+		4EEB67302D4E551FE02AD5974E914CA1 /* Turbolinks */ = {
 			isa = PBXGroup;
 			children = (
-				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
-				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
+				55565FCE8362822AF6961BCFF52A2B29 /* Action.swift */,
+				6AA6589FF9F88ACB87AFBE410B504A38 /* Error.swift */,
+				B48CCBBB48D4763AA4B12652D04B7208 /* ScriptMessage.swift */,
+				8AAABD63A7D1E132286050B12D817644 /* Session.swift */,
+				778C4B46D86B95263A17106C27D62285 /* Visit.swift */,
+				8D6DFD7A20B2FC93C8DDA93C4CE2D4A0 /* Visitable.swift */,
+				D037C023499C0D193942971B2697783D /* VisitableView.swift */,
+				0FA547E9F23593FE164EA8F495D31282 /* VisitableViewController.swift */,
+				B56756584020428C5F8AB64271EDD065 /* WebView.swift */,
+				38A1815159FC7A5D8A17116C10516621 /* Resources */,
+				F2AEAC98ACDE43AD5DF29D6D3EC4DD8D /* Support Files */,
 			);
-			name = iOS;
+			name = Turbolinks;
+			path = Turbolinks;
+			sourceTree = "<group>";
+		};
+		525C1493C1335F14AD7796F976B28673 /* APScheduledLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				6D2846A4042D898B4C4DB0680D9D03C5 /* APScheduledLocationManager.swift */,
+				B30739913D276DCB3DEC69C413AD4018 /* Support Files */,
+			);
+			name = APScheduledLocationManager;
+			path = APScheduledLocationManager;
+			sourceTree = "<group>";
+		};
+		6E4CC89B17F254B310CD6AD0C0430615 /* Strongbox */ = {
+			isa = PBXGroup;
+			children = (
+				9337788AA5944A98FD3A48FBBEB3F806 /* Strongbox.swift */,
+				16A22519DF53A7B3A32B2419E7C95CC6 /* Support Files */,
+			);
+			name = Strongbox;
+			path = Strongbox;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E6C540F9D3111CBB27552EC778BD3657 /* Pods */,
-				A332EDD0B6917A44B9D2761D7F4345BC /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				04DABBA05C04E17C9E6CB7FD52F7D63C /* Pods */,
+				161F921463E6279318597B493D73595F /* Products */,
 				A32B923CD2EA3CF5E2243991C465DC56 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8516E095A70C62D71685C8BA308E8D5B /* APScheduledLocationManager */ = {
+		860C09CB2FC14EB46530E2285BC06523 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E9E448FF92128DE5279FD9D7C5870D31 /* APScheduledLocationManager.swift */,
-				B1B1A7F73FA37EF90FCBC6372BFA5E2E /* Support Files */,
+				52B2D2E6C1A03D4EAD698327B404F7D4 /* Foundation.framework */,
+				FCE421853C42A57202411B611A466A2C /* Security.framework */,
+				6B7EB74A27D5A962A138FF8119143D83 /* WebKit.framework */,
 			);
-			name = APScheduledLocationManager;
-			path = APScheduledLocationManager;
-			sourceTree = "<group>";
-		};
-		85C22585580A5CB687F0D6ADE45C061F /* Turbolinks */ = {
-			isa = PBXGroup;
-			children = (
-				F82BC8D8F2440EC9D4087510DE2B4E23 /* Action.swift */,
-				7D886A2F8E19556958D7295B0747AB67 /* Error.swift */,
-				D735BD073D82F3DF537DB468BEB9DD41 /* ScriptMessage.swift */,
-				7EA4E0F26D84CB113CE2CE1355AEDB60 /* Session.swift */,
-				1403A96A162BF08466AF4674C9531070 /* Visit.swift */,
-				2DD2E46CEA3D5CA33ABD26F98416AB2B /* Visitable.swift */,
-				9327F8B17094DFE6CC8B7929A732B535 /* VisitableView.swift */,
-				2E7777D76EEDE00EE3133044DD30A470 /* VisitableViewController.swift */,
-				BB2F8AAECFBEBEA54ED4B435456B0834 /* WebView.swift */,
-				BEA82BBC6BB10124542D7CB243880977 /* Resources */,
-				296677C786A9763B6E19ADDDAF8382D8 /* Support Files */,
-			);
-			name = Turbolinks;
-			path = Turbolinks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A32B923CD2EA3CF5E2243991C465DC56 /* Targets Support Files */ = {
@@ -215,63 +285,50 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A332EDD0B6917A44B9D2761D7F4345BC /* Products */ = {
+		B30739913D276DCB3DEC69C413AD4018 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */,
-				6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */,
-				D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B1B1A7F73FA37EF90FCBC6372BFA5E2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2161E15EAF8809F8A155544B3D8DA275 /* APScheduledLocationManager.modulemap */,
-				23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */,
-				3E2D6CF8DFE4527AB80600CAF2467954 /* APScheduledLocationManager-dummy.m */,
-				9819D3CDC8FE7B7A4ECE1E9995970047 /* APScheduledLocationManager-prefix.pch */,
-				461A0E08C35A2F60C9DA4305C60CBDBD /* APScheduledLocationManager-umbrella.h */,
-				9D1793992DBEB2ACA3EAD43DDF59B628 /* Info.plist */,
+				A31FFB7E4EC5AE5D530F564E57D25706 /* APScheduledLocationManager.modulemap */,
+				84C32323A8B87561E6EA28691EA4957C /* APScheduledLocationManager.xcconfig */,
+				088DC4B999F4AF953207F3726A42B724 /* APScheduledLocationManager-dummy.m */,
+				E73C89A965E2795C18BBA0179C0EC0CA /* APScheduledLocationManager-prefix.pch */,
+				796815362F4B86BB723FDD51FB3D50F0 /* APScheduledLocationManager-umbrella.h */,
+				29FBD2893473B8D7B5208ABC5634E2D7 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/APScheduledLocationManager";
 			sourceTree = "<group>";
 		};
-		BEA82BBC6BB10124542D7CB243880977 /* Resources */ = {
+		F2AEAC98ACDE43AD5DF29D6D3EC4DD8D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BECFD175FBFB1EE884A627E2350D00A5 /* WebView.js */,
+				52E52DD8B02FD49C81575B61A6FF9D13 /* Info.plist */,
+				DC46D0D01C40CA092056A4A159F616A1 /* Turbolinks.modulemap */,
+				29018AC6B1CC8B45E22EF3D40021E4E9 /* Turbolinks.xcconfig */,
+				FACBA4CE685025930420A9A811611FDC /* Turbolinks-dummy.m */,
+				8A7DB1A13FA56626250120DEE88D37FD /* Turbolinks-prefix.pch */,
+				351FA5D5F62514A8CFFDC94F6CAE26AE /* Turbolinks-umbrella.h */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		E6C540F9D3111CBB27552EC778BD3657 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8516E095A70C62D71685C8BA308E8D5B /* APScheduledLocationManager */,
-				85C22585580A5CB687F0D6ADE45C061F /* Turbolinks */,
-			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Turbolinks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01206310931AB701A347676C90CA89F3 /* Headers */ = {
+		180E12C6CAC5DEFFC69C98DBAC522923 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8090E35802374D420DDFDED5D8EED3 /* Turbolinks-umbrella.h in Headers */,
+				74161B5FC5A297425132CCA2FBDB3A14 /* Pods-Reach iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		105953BCEC2270473471422A8825BE8A /* Headers */ = {
+		44605407FA96664DF721CA9762C01B78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CDB3EE1B95C100D241B94AB7A4F726 /* Pods-Reach iOS-umbrella.h in Headers */,
+				3984F48E2F7104AA559F1669041A0A02 /* Strongbox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03126A202621B6BB8731B273636C4857 /* APScheduledLocationManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1D22944B6B67FD59920B41129DAB77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B611D04B60098A6AAE49607206A6CE6 /* Turbolinks-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,17 +365,54 @@
 			);
 			name = APScheduledLocationManager;
 			productName = APScheduledLocationManager;
-			productReference = 3251E635190C65997EC9FA121E4DE62A /* APScheduledLocationManager.framework */;
+			productReference = D7D20202DD49073E29FE61AB4B995D7F /* APScheduledLocationManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		375056509A6FF37036D4979A575A8342 /* Turbolinks */ = {
+		64F6D7CA9AF5ED935347755C02A7ED85 /* Strongbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8010F2674EC7E4DF106389101A56D040 /* Build configuration list for PBXNativeTarget "Turbolinks" */;
+			buildConfigurationList = 616D80B91FB11AA6E3BCB7769DC4ECAD /* Build configuration list for PBXNativeTarget "Strongbox" */;
 			buildPhases = (
-				746E82ACD0547EE488681FEFE0781ADF /* Sources */,
-				E9C9B261758716EBE1ECA0196D4DCD6B /* Frameworks */,
-				0ACA7C9E93F6F21A8F760A46B61A8D38 /* Resources */,
-				01206310931AB701A347676C90CA89F3 /* Headers */,
+				85B7B081384B43B5B4B97C4A851834C7 /* Sources */,
+				4F8C2F47E95F12C7BFCDCE4BA9BC6283 /* Frameworks */,
+				44605407FA96664DF721CA9762C01B78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strongbox;
+			productName = Strongbox;
+			productReference = D7428A55EF1F46BFFA50B7535CA2EB28 /* Strongbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8499518B140B8D4A49A50AADD9C377DD /* Pods-Reach iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E83CBD983D1542BA3972460D540DA7 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */;
+			buildPhases = (
+				F83B1B6A3F59F3DE8CFD1F8CC15FA686 /* Sources */,
+				13371A831265FE3294A04883B18C1B19 /* Frameworks */,
+				180E12C6CAC5DEFFC69C98DBAC522923 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2581145FFBC45DFCA1E1FA7C7374F6CA /* PBXTargetDependency */,
+				A091E797FA40BA84847AACA1F956E912 /* PBXTargetDependency */,
+				2B702E94D60D8B9C47D619F989478AA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Reach iOS";
+			productName = "Pods-Reach iOS";
+			productReference = 19518DF7840B1C6D99091BBE6407E1DA /* Pods_Reach_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD3F8A62C0B0755DC278F132A11B448A /* Turbolinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54F00C9A1271AF49D545A815410A0EB /* Build configuration list for PBXNativeTarget "Turbolinks" */;
+			buildPhases = (
+				EAF0E38FCECBE046777F7671EBDE68BC /* Sources */,
+				90DEE109D231B9194369F02CA2B115D5 /* Frameworks */,
+				08293280D3C21EFC334368FC6AFE3156 /* Resources */,
+				FF1D22944B6B67FD59920B41129DAB77 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -318,26 +420,7 @@
 			);
 			name = Turbolinks;
 			productName = Turbolinks;
-			productReference = D274B8D2CD835B9BAA45DA1F41D0C70C /* Turbolinks.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F6520F8667B210E9A266AE91086E3A5A /* Pods-Reach iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1386843F6A4E01ABE81D1F0C450F3A95 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */;
-			buildPhases = (
-				3AC6B5A3602F68AAA65D0C4C1B08434D /* Sources */,
-				B4224D9E53FB43E86E5F4046E005692A /* Frameworks */,
-				105953BCEC2270473471422A8825BE8A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47C627796F553C876DFB733CB23E1ABC /* PBXTargetDependency */,
-				781EF12888BA5AAAE2E83B14DDF8C190 /* PBXTargetDependency */,
-			);
-			name = "Pods-Reach iOS";
-			productName = "Pods-Reach iOS";
-			productReference = 6108F327CC0DD3FF57FA8E608F2E11CD /* Pods_Reach_iOS.framework */;
+			productReference = 77E782A28F9596DE9DBCD57209C2B5F8 /* Turbolinks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -357,51 +440,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A332EDD0B6917A44B9D2761D7F4345BC /* Products */;
+			productRefGroup = 161F921463E6279318597B493D73595F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2629F2A9C43F48870DE3DEC54F6527B2 /* APScheduledLocationManager */,
-				F6520F8667B210E9A266AE91086E3A5A /* Pods-Reach iOS */,
-				375056509A6FF37036D4979A575A8342 /* Turbolinks */,
+				8499518B140B8D4A49A50AADD9C377DD /* Pods-Reach iOS */,
+				64F6D7CA9AF5ED935347755C02A7ED85 /* Strongbox */,
+				FD3F8A62C0B0755DC278F132A11B448A /* Turbolinks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0ACA7C9E93F6F21A8F760A46B61A8D38 /* Resources */ = {
+		08293280D3C21EFC334368FC6AFE3156 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF0A179CFE3B1CB96A98F459A6D5F6B /* WebView.js in Resources */,
+				A34937A5F4455DA4394F22A6D66667FC /* WebView.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3AC6B5A3602F68AAA65D0C4C1B08434D /* Sources */ = {
+		85B7B081384B43B5B4B97C4A851834C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9003BE0019637C4750F3C7A9C1D1D3FF /* Pods-Reach iOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		746E82ACD0547EE488681FEFE0781ADF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				434F71F154310751D509C619D02F18A3 /* Action.swift in Sources */,
-				E29DCB22E4518C819CEA6473F3C0DE81 /* Error.swift in Sources */,
-				01CBDDCE1F958DECF2D90D6DCE93A9D5 /* ScriptMessage.swift in Sources */,
-				6A76C04449432B00ADF133D47CDDDED5 /* Session.swift in Sources */,
-				8F5A3416922274CE0594ED900ADD2F8C /* Turbolinks-dummy.m in Sources */,
-				FC6D8777A5B9654A39F4B2019B2A0642 /* Visit.swift in Sources */,
-				086B767A26FC84CE67226D426C4E70AA /* Visitable.swift in Sources */,
-				01FBBFD8DE8E339164D4D2FB2C1E0EC4 /* VisitableView.swift in Sources */,
-				377E2195147EB341A68B13C4AB39A446 /* VisitableViewController.swift in Sources */,
-				ECD361BD1F390B7349F592E747519024 /* WebView.swift in Sources */,
+				5235DCE809AA1CF1AFB936180C4C2C42 /* Strongbox-dummy.m in Sources */,
+				E9F0350493ADEEFCC6A466C758A405CE /* Strongbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,24 +482,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAF0E38FCECBE046777F7671EBDE68BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CB0012FC328620DBA503175B648212 /* Action.swift in Sources */,
+				9073F1245D1003CCB4E5D370C87E8AA7 /* Error.swift in Sources */,
+				22E8653389069EC69E9F0851DABD185A /* ScriptMessage.swift in Sources */,
+				63F1CA1437A15A5DA8DCCB0B6059DEC0 /* Session.swift in Sources */,
+				EA1B21061293BB174EEA43CA85E7DFF2 /* Turbolinks-dummy.m in Sources */,
+				FC784C0350E285191DF6956DFDAEB458 /* Visit.swift in Sources */,
+				8A00D02406C1B175CFF10250D8A4E7D6 /* Visitable.swift in Sources */,
+				3DCF36411C7068738E66C858E69F3C33 /* VisitableView.swift in Sources */,
+				3ECC7E5434C4266E88CD351B83BB32E9 /* VisitableViewController.swift in Sources */,
+				FF1911AAACD7B8F6C89776EC797E0467 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B1B6A3F59F3DE8CFD1F8CC15FA686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5066E0C15DAE93E6BCA7C72E42CBB1A /* Pods-Reach iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		47C627796F553C876DFB733CB23E1ABC /* PBXTargetDependency */ = {
+		2581145FFBC45DFCA1E1FA7C7374F6CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APScheduledLocationManager;
 			target = 2629F2A9C43F48870DE3DEC54F6527B2 /* APScheduledLocationManager */;
-			targetProxy = 063A127079E0C3A47E64F46A651E1BEB /* PBXContainerItemProxy */;
+			targetProxy = AC4226BA4CACB7B9637C45A48FA96752 /* PBXContainerItemProxy */;
 		};
-		781EF12888BA5AAAE2E83B14DDF8C190 /* PBXTargetDependency */ = {
+		2B702E94D60D8B9C47D619F989478AA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Turbolinks;
-			target = 375056509A6FF37036D4979A575A8342 /* Turbolinks */;
-			targetProxy = 822E188D62E7930B1DE47AAC14715C94 /* PBXContainerItemProxy */;
+			target = FD3F8A62C0B0755DC278F132A11B448A /* Turbolinks */;
+			targetProxy = 5E94328F62432A414F2D29718E3A005B /* PBXContainerItemProxy */;
+		};
+		A091E797FA40BA84847AACA1F956E912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Strongbox;
+			target = 64F6D7CA9AF5ED935347755C02A7ED85 /* Strongbox */;
+			targetProxy = 840F2AC4EA07F58C3EC8DA1AF3B5574E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		12640AC304E86C284E6E0A085B352DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDFCDCDC133658B319F74E9BDABC7CC /* Pods-Reach iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reach iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reach iOS/Pods-Reach iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reach_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -480,16 +617,16 @@
 			};
 			name = Debug;
 		};
-		4C321D8607F86D2A4D45205B5097A66A /* Debug */ = {
+		8323F0FC19A2A0046830A4D70CC7EE90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */;
+			baseConfigurationReference = 29018AC6B1CC8B45E22EF3D40021E4E9 /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -502,22 +639,21 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Turbolinks;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		9610C2D62560A3C8E0CC2D01B1D6CD73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */;
+			baseConfigurationReference = 84C32323A8B87561E6EA28691EA4957C /* APScheduledLocationManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -549,9 +685,9 @@
 			};
 			name = Release;
 		};
-		9BE2E36A7D57C9FD9675768EFB3E904A /* Debug */ = {
+		9F321925263B34C6F1276282EFC93BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */;
+			baseConfigurationReference = 283394D46398CB27DF09A76C852DA142 /* Strongbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -565,18 +701,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Reach iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Strongbox/Strongbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Strongbox/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Reach iOS/Pods-Reach iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Strongbox/Strongbox.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Reach_iOS;
+				PRODUCT_NAME = Strongbox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -634,7 +766,7 @@
 		};
 		AD8B43DD7008E8886F7D304DBB2EA3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E4E612C6EB6EDEA420EB6CAA3708AA /* APScheduledLocationManager.xcconfig */;
+			baseConfigurationReference = 84C32323A8B87561E6EA28691EA4957C /* APScheduledLocationManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,16 +799,16 @@
 			};
 			name = Debug;
 		};
-		BACC72BFD194F9BBD30DA1066F047CE8 /* Release */ = {
+		D3EBD419995C5D1384C549E1CE68ABCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFDFCDCDC133658B319F74E9BDABC7CC /* Pods-Reach iOS.release.xcconfig */;
+			baseConfigurationReference = 63D4BA839A0457A94E017EC2A39C59EA /* Pods-Reach iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -689,7 +821,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Reach iOS/Pods-Reach iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -697,17 +829,53 @@
 				PRODUCT_NAME = Pods_Reach_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C567832262AA4EBDEEB90284C335903B /* Release */ = {
+		DC97C32D8EAD314E886B8D721DACABF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36C39F1158A349965D9853BB492B4BEE /* Turbolinks.xcconfig */;
+			baseConfigurationReference = 29018AC6B1CC8B45E22EF3D40021E4E9 /* Turbolinks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Turbolinks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDE095116DDDCECD47E0EC720DD98C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283394D46398CB27DF09A76C852DA142 /* Strongbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -721,14 +889,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Strongbox/Strongbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Strongbox/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Strongbox/Strongbox.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Turbolinks;
+				PRODUCT_NAME = Strongbox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -742,15 +910,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1386843F6A4E01ABE81D1F0C450F3A95 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BE2E36A7D57C9FD9675768EFB3E904A /* Debug */,
-				BACC72BFD194F9BBD30DA1066F047CE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		26E29A20152D8B88E799FA5D1ED166DD /* Build configuration list for PBXNativeTarget "APScheduledLocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -769,11 +928,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8010F2674EC7E4DF106389101A56D040 /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
+		616D80B91FB11AA6E3BCB7769DC4ECAD /* Build configuration list for PBXNativeTarget "Strongbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C321D8607F86D2A4D45205B5097A66A /* Debug */,
-				C567832262AA4EBDEEB90284C335903B /* Release */,
+				9F321925263B34C6F1276282EFC93BF6 /* Debug */,
+				EDE095116DDDCECD47E0EC720DD98C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54F00C9A1271AF49D545A815410A0EB /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97C32D8EAD314E886B8D721DACABF7 /* Debug */,
+				8323F0FC19A2A0046830A4D70CC7EE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E83CBD983D1542BA3972460D540DA7 /* Build configuration list for PBXNativeTarget "Pods-Reach iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EBD419995C5D1384C549E1CE68ABCF /* Debug */,
+				12640AC304E86C284E6E0A085B352DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

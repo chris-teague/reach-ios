@@ -10,35 +10,95 @@ import UIKit
 import Turbolinks
 import APScheduledLocationManager
 import CoreLocation
+import Strongbox
+import WebKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate, APScheduledLocationManagerDelegate {
     
     private var manager: APScheduledLocationManager!
 
+    let APP_HOST = "https://pdd-reach.herokuapp.com"
+    
     var window: UIWindow?
     var navigationController = UINavigationController()
     var session = Session()
-    
+    var userID = ""
+    var userToken = ""
+    var lastURL = URL(string: "https://pdd-reach.herokuapp.com")
+    var setupUserRetried = false
+    let sb = Strongbox()
+
     func applicationDidFinishLaunching(_ application: UIApplication) {
+        application.registerForRemoteNotifications()
         window?.rootViewController = navigationController
         startApplication()
     }
     
     func startApplication() {
         session.delegate = self
-        visit(URL: URL(string: "http://192.168.0.2:3000")!)
+        visit(URL: URL(string: APP_HOST)!)
         manager = APScheduledLocationManager(delegate: self)
-        setupUser()
+        
+        handleUser()
         trackLocation()
     }
     
+    func handleUser() {
+        if let id = sb.unarchive(objectForKey: "user-id") as? String, let token = sb.unarchive(objectForKey: "user-token") as? String {
+            userID = id
+            userToken = token
+            visit(URL: lastURL!)
+        } else {
+            setupUser()
+        }
+    }
+    
     func setupUser() {
-        let path = NSBundle.mainBundle().pathForResource("Credentials", ofType: "plist")
-        let dict = NSDictionary(contentsOfFile: path!)
-        
-        tableData = dict!.objectForKey("user-id") as! [String]
-        print(tableData)
+        var request = URLRequest(url: URL(string: APP_HOST + "/users.json")!)
+        request.httpMethod = "POST"
+        let postString = "user[client]=ios"
+        request.httpBody = postString.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 201 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            if self.setupUserRetried {
+                print("Setting up user retried")
+            }
+            let responseString = String(data: data, encoding: .utf8)
+            self.saveUserCredentials(jsonString: responseString!)
+        }
+        task.resume()
+    }
+    
+    func saveUserCredentials(jsonString: String) {
+        let data = jsonString.data(using: String.Encoding.utf8)!
+        do {
+            if let jsonObject = try JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject] {
+                print("---")
+                print(jsonObject)
+                print("---")
+
+                if let id = jsonObject["id"] as? String, let token = jsonObject["token"] as? String {
+                    saveUserCreds(id: id, token: token)
+                }
+            }
+        } catch let error as NSError {
+            print(error)
+        }
+    }
+    
+    func saveUserCreds(id: String, token: String) {
+        sb.archive(token, key: "user-token") // true
+        sb.archive(id, key: "user-id") // true
     }
     
     
@@ -48,9 +108,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     }
     
     func saveLocation(location: CLLocation) {
-        var request = URLRequest(url: URL(string: "http://192.168.0.2:3000/locations/af22687f-4c43-47f2-97ff-db9764b8c91d")!)
+        guard !userID.isEmpty, !userToken.isEmpty else {
+            return
+        }
+        
+        var request = URLRequest(url: URL(string: APP_HOST + "/users/"+userID+".json")!)
         request.httpMethod = "POST"
-        let postString = "location[lat]=" + String(format: "%.8f", location.coordinate.latitude) + "&location[lng]=" + String(format: "%.8f", location.coordinate.longitude) + "&_method=patch"
+        let postString = "user[lat]=" + String(format: "%.8f", location.coordinate.latitude) + "&user[lng]=" + String(format: "%.8f", location.coordinate.longitude) + "&_method=patch"
         
         request.httpBody = postString.data(using: .utf8)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -59,6 +123,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
                 return
             }
             
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode == 404 && !self.setupUserRetried {
+                self.setupUserRetried = true
+                self.setupUser()
+            }
+
             if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
                 print("statusCode should be 200, but is \(httpStatus.statusCode)")
                 print("response = \(response)")
@@ -86,7 +155,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     }
     
     func visit(URL: URL) {
-        let visitableViewController = VisitableViewController(url: URL)
+        let visitableViewController = VisitableViewController(url: URLWithToken(rawURL: URL))
+        
         navigationController.pushViewController(visitableViewController, animated: true)
         
         let dirUrl = URL.deletingLastPathComponent()
@@ -95,6 +165,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
             UIPasteboard.general.string = URL.absoluteString
         }
         
+        lastURL = URL
         session.visit(visitableViewController)
     }
     
@@ -107,6 +178,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         
     }
     
+    private func URLWithToken(rawURL: URL)-> URL {
+        if userToken == nil {
+            return rawURL
+        } else {
+            var finalURL = "\(rawURL)"
+            if finalURL.range(of: "?") == nil {
+                finalURL = "\(finalURL)?userToken=\(userToken)"
+            } else {
+                finalURL = "\(finalURL)&userToken=\(userToken)"
+            }
+            return URL(string: finalURL)!
+        }
+    }
 }
 
 extension AppDelegate: SessionDelegate {
@@ -120,3 +204,6 @@ extension AppDelegate: SessionDelegate {
         navigationController.present(alert, animated: true, completion: nil)
     }
 }
+
+
+
