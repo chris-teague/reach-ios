@@ -104,7 +104,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     
     func trackLocation() {
         manager.requestAlwaysAuthorization()
-        manager.startUpdatingLocation(interval: 10, acceptableLocationAccuracy: 70)
+        manager.startUpdatingLocation(interval: 5, acceptableLocationAccuracy: 70)
     }
     
     func saveLocation(location: CLLocation) {
@@ -179,7 +179,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     }
     
     private func URLWithToken(rawURL: URL)-> URL {
-        if userToken == nil {
+        if userToken.isEmpty {
             return rawURL
         } else {
             var finalURL = "\(rawURL)"
