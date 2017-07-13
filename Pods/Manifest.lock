@@ -1,9 +1,11 @@
 PODS:
   - APScheduledLocationManager (1.0.1)
+  - Strongbox (0.3.1)
   - Turbolinks (2.0.0)
 
 DEPENDENCIES:
   - APScheduledLocationManager
+  - Strongbox
   - Turbolinks (from `https://github.com/turbolinks/turbolinks-ios.git`)
 
 EXTERNAL SOURCES:
@@ -17,8 +19,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   APScheduledLocationManager: ec688cae8b606c6f7a5234189c3954eb9a6d3ace
+  Strongbox: 5018f3291e1102b4c11fab25d9e8494712e3d102
   Turbolinks: 3f60819d36350d872b436dc22497a1050c144b95
 
-PODFILE CHECKSUM: 817f2c770da4f8b3516073a1e29b7d608dc1487e
+PODFILE CHECKSUM: d94784a33c093eda468415c8ecd13ba4bbbde0e0
 
 COCOAPODS: 1.2.1
