@@ -83,10 +83,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         let data = jsonString.data(using: String.Encoding.utf8)!
         do {
             if let jsonObject = try JSONSerialization.jsonObject(with: data, options: []) as? [String:AnyObject] {
-                print("---")
-                print(jsonObject)
-                print("---")
-
                 if let id = jsonObject["id"] as? String, let token = jsonObject["token"] as? String {
                     saveUserCreds(id: id, token: token)
                 }
@@ -132,9 +128,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
                 print("statusCode should be 200, but is \(httpStatus.statusCode)")
                 print("response = \(response)")
             }
-            
-            let responseString = String(data: data, encoding: .utf8)
-            print("responseString = \(responseString)")
         }
         task.resume()
 
@@ -146,8 +139,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     
     func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
         let latestLocation: CLLocation = locations[locations.count - 1]
-        
-        NSLog(String(format: "%.4f", latestLocation.coordinate.latitude))
         saveLocation(location: latestLocation)
     }
     
@@ -173,9 +164,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
                          didUpdateLocations locations: [CLLocation])
     {
         let latestLocation: CLLocation = locations[locations.count - 1]
-        
-        NSLog(String(format: "%.4f", latestLocation.coordinate.latitude))
-        
     }
     
     private func URLWithToken(rawURL: URL)-> URL {
