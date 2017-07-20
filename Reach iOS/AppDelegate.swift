@@ -95,6 +95,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     func saveUserCreds(id: String, token: String) {
         sb.archive(token, key: "user-token") // true
         sb.archive(id, key: "user-id") // true
+        userID = id
+        userToken = token
+        DispatchQueue.main.async {
+            self.visit(URL: self.lastURL!)
+        }
     }
     
     
