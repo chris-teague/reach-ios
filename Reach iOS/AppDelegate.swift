@@ -105,7 +105,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     
     func trackLocation() {
         manager.requestAlwaysAuthorization()
-        manager.startUpdatingLocation(interval: 5, acceptableLocationAccuracy: 70)
+        manager.startUpdatingLocation(interval: 4, acceptableLocationAccuracy: kCLLocationAccuracyNearestTenMeters)
     }
     
     func saveLocation(location: CLLocation) {
